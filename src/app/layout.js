@@ -29,10 +29,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${jetbrainsMono.variable} ${permanentMarker.variable} antialiased bg-[#f0f0f0] text-zinc-900 h-screen w-screen overflow-hidden`}
+        className={`${inter.variable} ${jetbrainsMono.variable} ${permanentMarker.variable} antialiased bg-white text-zinc-900 h-screen w-screen overflow-hidden`}
       >
-        <div className="absolute inset-0 z-0 bg-grid-pattern opacity-20 pointer-events-none" />
-        <main className="relative z-10 h-full w-full flex flex-col items-center justify-center">
+        <div className="absolute inset-0 z-0 bg-grid-pattern opacity-10 pointer-events-none" />
+        <main className="relative z-10 h-full w-full flex flex-col items-center justify-center bg-white">
           {children}
         </main>
       </body>

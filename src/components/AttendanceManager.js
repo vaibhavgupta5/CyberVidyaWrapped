@@ -304,13 +304,13 @@ export default function AttendanceManager() {
             Replay Story
           </button>
 
-          <button
+          {/* <button
             onClick={downloadSummaryCard}
             className="flex items-center gap-2 px-6 py-3 bg-emerald-500 text-white  -full font-bold hover:scale-105 transition-transform border-2 border-black  -[4px_4px_0px_0px_rgba(0,0,0,1)]"
           >
             <Download size={20} />
             Download Summary
-          </button>
+          </button> */}
         </div>
       )}
     </div>
