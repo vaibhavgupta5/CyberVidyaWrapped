@@ -1,4 +1,5 @@
 import { Inter, JetBrains_Mono, Permanent_Marker } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const inter = Inter({
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
         <main className="relative z-10 h-full w-full flex flex-col items-center justify-center">
           {children}
         </main>
+        <Analytics />
       </body>
     </html>
   );
