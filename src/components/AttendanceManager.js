@@ -270,7 +270,7 @@ export default function AttendanceManager() {
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="w-full h-full p-4"
+            className="w-full h-full p-2"
           >
             <CurrentSlide
               data={slides[currentIndex].data}
